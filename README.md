@@ -1,24 +1,27 @@
-# README
+# Friends Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Local Setup
 
-Things you may want to cover:
+Make sure Ruby is installed on your system. Fire command prompt and run command:
 
-* Ruby version
+- ruby -v
+Make sure Rails is installed
 
-* System dependencies
+- rails -v
 
-* Configuration
+If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails
 
-* Database creation
+Clone respected git repository
 
-* Database initialization
+- git clone https://github.com/martynbiz/human_services_finder.git
+Install all dependencies
 
-* How to run the test suite
+- bundle install
+Create db and migrate schema
 
-* Services (job queues, cache servers, search engines, etc.)
+- rails db:create
+- rails db:migrate
+Now run your application
 
-* Deployment instructions
+rails s
 
-* ...
